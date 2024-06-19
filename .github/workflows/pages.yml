@@ -20,22 +20,38 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
+      # checkout the repo
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install Nix
+
+      # install nix
+      - name: Install Nix 
         uses: nixbuild/nix-quick-install-action@v26
         with:
           nix_conf: experimental-features = nix-command flakes
+
+      # setup pages for github
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v3
+
+      # build the static site
       - name: Build site
         run: nix build
+
+      # adjust the permissions so that the runner can move it
       - name: Adjust permissions
         run: |
           chown -R `id -u`:`id -g` ./result
           chmod -R a+rwx ./result
+
+      # upload the artifact for the deploy job
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./result
+
   deploy:
     runs-on: ubuntu-latest
     environment:
