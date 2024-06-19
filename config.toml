@@ -29,7 +29,7 @@ display_author = true
 image = ""
 
 default_theme = "dark"
-list_pages = true
+# list_pages = true
 
 header_nav = [
   { url = "/", name_en = "/home/"},
