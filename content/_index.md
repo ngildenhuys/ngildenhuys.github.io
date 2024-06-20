@@ -9,7 +9,7 @@ Just a bunch of probably dumb thoughts
 
 ...More to come :)
 
-## Other Blogc
+## Other Blogs
 While you are waiting, check out these other blogs that I like.
 
 - [axio](https://axio.ms)
