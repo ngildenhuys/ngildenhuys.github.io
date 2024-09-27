@@ -19,3 +19,6 @@ While you are waiting, check out these other blogs that I like.
 - [julia evans](https://jvns.ca)
 - [ludicity](https://ludic.mataroa.blog)
 - [verification gentleman](https://blog.verificationgentleman.com)
+- [mcfunley](https://mcfunley.com/choose-boring-technology)
+- [software-exorcist](https://softwareexorcist.com/writing/releases-should-be-boring)
+
