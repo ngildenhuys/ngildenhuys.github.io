@@ -1,15 +1,20 @@
 +++
 +++
+
 ## Hello World
-> *"hey"*
+
+> _"hey"_
 
 ## Blog Posts
+
 Just a bunch of probably dumb thoughts
-  - [Hello World](./blog/hello-world)
+
+- [Hello World](./blog/hello-world)
 
 ...More to come :)
 
 ## Other Blogs
+
 While you are waiting, check out these other blogs that I like.
 
 - [axio](https://axio.ms)
@@ -22,3 +27,4 @@ While you are waiting, check out these other blogs that I like.
 - [mcfunley](https://mcfunley.com/choose-boring-technology)
 - [software-exorcist](https://softwareexorcist.com/writing/releases-should-be-boring)
 - [hut 8 labs](https://blog.hut8labs.com/)
+- [barrucadu](https://memo.barrucadu.co.uk/)
