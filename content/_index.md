@@ -28,3 +28,5 @@ While you are waiting, check out these other blogs that I like.
 - [software-exorcist](https://softwareexorcist.com/writing/releases-should-be-boring)
 - [hut 8 labs](https://blog.hut8labs.com/)
 - [barrucadu](https://memo.barrucadu.co.uk/)
+- [Edward Jacobs](https://edwardjacobs.blog/)
+- [Ryan Tolsma](https://www.ryantolsma.com/)
